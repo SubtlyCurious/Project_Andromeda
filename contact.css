@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    font-family: monospace;
+}
+
+li, a, button {
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.nav_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: royalblue;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.contact {
+    padding-top: 2rem;
+    padding-left: 50px;
+
+}
+
+.contact_intro {
+    font-size: 20px;
+    color: #edf0f1;
+}
+
+.contact_intro-description {
+    color: #edf0f1;
+}
+
+.contact_name {
+    padding-top: 2rem;
+}
+
+.contact_name-div {
+    padding-bottom: 2rem;
+}
+
+.contact_name-div h2 {
+    color: #edf0f1;
+}
+
+.contact_input {
+    width: 400px;
+    height: 35px;
+    font-size: 18px;
+    background-color: darkslategray;
+    border-radius: 0.5rem;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+.contact_email {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.contact_email h2 {
+    color: #edf0f1;
+}
+
+.contact_subject-div {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #edf0f1;
+}
+
+.contact_msg-div {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #edf0f1;
+}
+
+.contact_msg {
+    width: 85%;
+}
+
+.msg_input {
+    width: 85%;
+    height: 400px;
+    background-color: darkslategray;
+}
+
+.contact_submit {
+    padding: 4rem;
+}
+
